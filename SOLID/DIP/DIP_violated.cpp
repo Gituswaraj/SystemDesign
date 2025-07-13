@@ -32,8 +32,9 @@ public:
     }
 };
 
+
 int main() {
     UserService service;
-    service.storeUserToSQL("Aditya");
+    service.storeUserToSQL("Swaraj");
     service.storeUserToMongo("Rohit");
 }
